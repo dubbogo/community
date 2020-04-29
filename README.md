@@ -16,6 +16,8 @@ Coming soon ( maybe in May )
 
 [Join](meeting) our next community meeting.
 
+[Visit](meeting) our meeting summary.
+
 # Contact
 
 Using follow information to contact us
