@@ -10,11 +10,7 @@ Visit [https://dubbogo.github.io/dubbo-go-website/](https://dubbogo.github.io/du
 
 # Next Event
 
-## Title
-
-dubbo-go in action
-
-## Time
+## dubbo-go in action
 
 **20:00 - 21:00 1st May 2020**
 
