@@ -10,7 +10,17 @@ Visit [https://dubbogo.github.io/dubbo-go-website/](https://dubbogo.github.io/du
 
 # Next Event
 
-Coming soon ( maybe in May )
+## Title
+
+dubbo-go in action
+
+## Time
+
+**20:00 - 21:00 1st May 2020**
+
+![activity/dubbo-go-combat.jpg](activity/dubbo-go-combat.jpg)
+
+Coming soon 
 
 # Meeting summary
 
