@@ -1,3 +1,5 @@
+# Project summary
+
 # Develop Plan
 
 # Testing Plan
@@ -11,13 +13,13 @@ Finish date: 2020-08-20
 
 ## Test module
 
-* aync: zouyx
-* configcenter: zouyx
-* direct: zouyx
+* aync: zouyx - done
+* configcenter: zouyx - done
+* direct: zouyx - done
 * filter: fangyincheng
 * general: fangyingcheng
 * generic: fanyincheng
-* helloworld: fanyincheng
+* helloworld: fanyincheng - done
 * multi_registry: fanyincheng
-* router: zouyx
+* router: zouyx - done
 * tracing: zouyx
