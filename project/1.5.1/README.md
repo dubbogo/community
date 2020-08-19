@@ -9,6 +9,7 @@ Finish date: 2020-08-20
 ## Test branch
 
 [dubbo-go](https://github.com/apache/dubbo-go/): 1.5.1
+
 [dubbo-sample](https://github.com/dubbogo/dubbo-samples/): master
 
 ## Test module
@@ -26,4 +27,4 @@ Finish date: 2020-08-20
 * helloworld: fanyincheng - done
 * multi_registry: fanyincheng
 * router: zouyx - done
-* tracing: zouyx
+* tracing: zouyx - done
