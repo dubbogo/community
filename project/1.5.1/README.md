@@ -21,7 +21,7 @@ Finish date: 2020-08-20
 * general: fangyingcheng
     * dubbo - done
     * jsonrpc - done
-    * grpc
+    * grpc - done
     * rest - done
 * generic: fanyincheng
 * helloworld: fanyincheng - done
