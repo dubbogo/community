@@ -2,6 +2,8 @@
 
 # Develop Plan
 
+![plan](plan.png)
+
 # Testing Plan
 
 Finish date: 2020-08-20
@@ -25,7 +27,6 @@ Finish date: 2020-08-20
     * rest - done
 * generic: fanyincheng - done
 * helloworld: fanyincheng - done
-* multi_registry: fanyincheng
 * registry - zouyx - done
+* multi_registry: fanyincheng - done
 * router: zouyx - done
-* tracing: zouyx - done
