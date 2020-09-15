@@ -15,17 +15,19 @@ Finish date: 2020-09-14
 
 ## Test module
 
-* aync: 
-* configcenter: 
-* direct: 
-* filter: 
-* general: 
+* aync: zouyx -done
+* configcenter: zouyx - done
+* direct: zouyx - done
+* filter: fangyincheng 
+* general: fangyingcheng
     * dubbo 
     * jsonrpc
     * grpc
     * rest
-* generic: 
-* helloworld: 
-* multi_registry: 
-* router:
-* tracing: 
+* generic: fanyincheng
+* helloworld: fanyincheng
+* registry - zouyx
+* multi_registry: fanyincheng 
+* router: zouyx
+* shop: zouyx
+* seata: zouyx
