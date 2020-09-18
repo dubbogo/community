@@ -22,16 +22,16 @@ Finish date: 2020-09-14
 * general: fangyingcheng
     * dubbo - done
     * jsonrpc - done
-    * grpc
-    * rest
+    * grpc - done
+    * rest - done
 * generic: fanyincheng
 * helloworld: fanyincheng - done
 * registry - zouyx - 
-* multi_registry: fanyincheng 
+* multi_registry: fanyincheng - done
 * metric: zouyx - done
 * router: zouyx - something wrong
 * shop: zouyx 
 * seata: zouyx
-* service discovery: zouyx
+* service discovery: zouyx - done
     * zk - done
-    * nacos - - something wrong
+    * nacos - done
