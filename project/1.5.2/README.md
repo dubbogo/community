@@ -18,13 +18,13 @@ Finish date: 2020-09-14
 * aync: zouyx - done
 * configcenter: zouyx - done
 * direct: zouyx - done
-* filter: fangyincheng 
+* filter: fangyincheng - done
 * general: fangyingcheng
     * dubbo - done
     * jsonrpc - done
     * grpc - done
     * rest - done
-* generic: fanyincheng
+* generic: fanyincheng - done
 * helloworld: fanyincheng - done
 * registry - zouyx - 
 * multi_registry: fanyincheng - done
