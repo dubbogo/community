@@ -18,12 +18,12 @@ Finish date: 2020-10-31
 * configcenter: zouyx - done
 * direct: zouyx - done
 * filter: watermelo - done
-* general: watermelo
+* general: watermelo - done
     * dubbo 
     * jsonrpc
     * grpc
     * rest
-* generic: watermelo
+* generic: watermelo - done
 * helloworld: venus
 * seata: venus
 * registry haohongfan
@@ -40,8 +40,8 @@ Finish date: 2020-10-31
 	* dubbo -done
 * metric: zouyx - done
 * router: zouyx - done
-* shop: tiecheng
+* shop: tiecheng -done
 * service discovery: tiecheng
-    * zk
-    * nacos
+    * zk - done
+    * nacos - done
 * tracing : zouyx - done
