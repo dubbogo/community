@@ -14,10 +14,10 @@ Finish date: 2020-10-31
 
 ## Test module
 
-* aync: zouyx
-* configcenter: zouyx
-* direct: zouyx
-* filter: watermelo 
+* aync: zouyx - done
+* configcenter: zouyx - done
+* direct: zouyx - done
+* filter: watermelo - done
 * general: watermelo
     * dubbo 
     * jsonrpc
@@ -28,10 +28,10 @@ Finish date: 2020-10-31
 * seata: venus
 * registry haohongfan
 * multi_registry: haohongfan
-* metric: zouyx
-* router: zouyx
+* metric: zouyx - done
+* router: zouyx - done
 * shop: tiecheng
 * service discovery: tiecheng
     * zk
     * nacos
-* tracing : zouyx
+* tracing : zouyx - done
