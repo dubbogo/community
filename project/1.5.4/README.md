@@ -27,7 +27,17 @@ Finish date: 2020-10-31
 * helloworld: venus
 * seata: venus
 * registry haohongfan
+	* nacos -done
+	* etcd done
+	* kubernetes fail
+	* service
+		* consul done
+		* etcd done
+		* file done
+		* nacos done
+		* zookeeper done
 * multi_registry: haohongfan
+	* dubbo -done
 * metric: zouyx - done
 * router: zouyx - done
 * shop: tiecheng
