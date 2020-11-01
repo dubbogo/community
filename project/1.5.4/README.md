@@ -30,8 +30,8 @@ Finish date: 2020-10-31
 * multi_registry: haohongfan
 * metric: zouyx - done
 * router: zouyx - done
-* shop: tiecheng
+* shop: tiecheng -done
 * service discovery: tiecheng
-    * zk
-    * nacos
+    * zk - done
+    * nacos - done
 * tracing : zouyx - done
