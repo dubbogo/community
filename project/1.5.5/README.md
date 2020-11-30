@@ -11,7 +11,7 @@ Finish date: 2020-12-6
 
 [dubbo-go](https://github.com/apache/dubbo-go/): develop
 
-[dubbo-go-sample](https://github.com/apache/dubbo-go-samples/): master
+[dubbo-go-sample](https://github.com/apache/dubbo-go-samples/): 1.5.5
 
 ## Test module
 
