@@ -22,8 +22,8 @@ Finish date: 2020-12-6
 * general: watermelo
     * dubbo - done (integration)
     * jsonrpc - done (integration)
-    * grpc
-    * rest
+    * grpc - done
+    * rest - done
 * generic: watermelo - done (integration)
 * helloworld: haohongfan - done (integration)
 * seata: haohongfan
