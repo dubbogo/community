@@ -15,24 +15,24 @@ Finish date: 2020-12-6
 
 ## Test module
 
-* aync: zouyx
-* configcenter: zouyx
-* direct: zouyx
-* filter: watermelo
+* aync: zouyx - done (integration)
+* configcenter: zouyx - done (integration)
+* direct: zouyx - done (integration)
+* filter: watermelo - done (integration)
 * general: watermelo
-    * dubbo 
-    * jsonrpc
+    * dubbo - done (integration)
+    * jsonrpc - done (integration)
     * grpc
     * rest
-* generic: watermelo
-* helloworld: haohongfan
+* generic: watermelo - done (integration)
+* helloworld: haohongfan - done (integration)
 * seata: haohongfan
 * registry haohongfan
-* multi_registry: haohongfan
-* metric: zouyx
-* router: zouyx
-* shop: fangyincheng
-* service discovery: fangyincheng
-    * zk
+* service discovery: zouyx
+    * zk - done (integration)
     * nacos
-* tracing : zouyx
+* multi_registry: haohongfan
+* metric: zouyx - done (integration)
+* router: zouyx 
+* shop: fangyincheng
+* tracing : zouyx - done
