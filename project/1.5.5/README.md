@@ -33,6 +33,6 @@ Finish date: 2020-12-6
     * nacos
 * multi_registry: haohongfan
 * metric: zouyx - done (integration)
-* router: zouyx 
+* router: zouyx - 模块代码没问题，但依然存在启动需要停 5s 等router 代码准备好的问题。
 * shop: zhangxun - done (integration)
 * tracing : zouyx - done
