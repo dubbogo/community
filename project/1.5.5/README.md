@@ -34,5 +34,5 @@ Finish date: 2020-12-6
 * multi_registry: haohongfan
 * metric: zouyx - done (integration)
 * router: zouyx 
-* shop: fangyincheng
+* shop: fangyincheng - done
 * tracing : zouyx - done
