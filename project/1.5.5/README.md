@@ -22,11 +22,11 @@ Finish date: 2020-12-6
 * general: watermelo
     * dubbo - done (integration)
     * jsonrpc - done (integration)
-    * grpc - done
-    * rest - done
+    * grpc - done (integration)
+    * rest - done (integration)
 * generic: watermelo - done (integration)
 * helloworld: haohongfan - done (integration)
-* seata: haohongfan
+* seata: tiecheng - done (integration)
 * registry haohongfan
 * service discovery: zouyx
     * zk - done (integration)
@@ -34,5 +34,5 @@ Finish date: 2020-12-6
 * multi_registry: haohongfan
 * metric: zouyx - done (integration)
 * router: zouyx 
-* shop: fangyincheng
+* shop: zhangxun - done (integration)
 * tracing : zouyx - done
