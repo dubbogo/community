@@ -29,5 +29,3 @@ Coming soon
 Using follow information to contact us
 
 dingding: 23331795
-
-qq
