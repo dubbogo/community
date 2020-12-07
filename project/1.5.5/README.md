@@ -28,6 +28,16 @@ Finish date: 2020-12-6
 * helloworld: haohongfan - done (integration)
 * seata: tiecheng - done (integration)
 * registry haohongfan
+	* etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容
+	* nacos: done
+	* kubernetes: done
+* registry/servicediscovery
+	* consul: 没修改成适应makefile的版本
+	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0
+	* etcd: 同样版本问题
+	* nacos: done
+	* zk: done
+* multi-registry: done
 * service discovery: zouyx
     * zk - done (integration)
     * nacos
@@ -36,3 +46,6 @@ Finish date: 2020-12-6
 * router: zouyx - 模块代码没问题，但依然存在启动需要停 5s 等router 代码准备好的问题。
 * shop: zhangxun - done (integration)
 * tracing : zouyx - done
+
+共性问题: 
+mac上sentinel-golang提示: Failed to retrieve current CPU usage: not implemented yet
