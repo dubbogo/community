@@ -22,17 +22,17 @@ Finish date: 2020-12-6
 * general: watermelo
     * dubbo - done (integration)
     * jsonrpc - done (integration)
-    * grpc - done
-    * rest - done
+    * grpc - done (integration)
+    * rest - done (integration)
 * generic: watermelo - done (integration)
 * helloworld: haohongfan - done (integration)
-* seata: haohongfan
+* seata: tiecheng - done (integration)
 * registry haohongfan
 * service discovery: zouyx
     * zk - done (integration)
     * nacos
 * multi_registry: haohongfan
 * metric: zouyx - done (integration)
-* router: zouyx 
-* shop: fangyincheng - done
+* router: zouyx - 模块代码没问题，但依然存在启动需要停 5s 等router 代码准备好的问题。
+* shop: zhangxun - done (integration)
 * tracing : zouyx - done
