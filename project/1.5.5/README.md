@@ -31,17 +31,16 @@ Finish date: 2020-12-6
 	* etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容
 	* nacos: done
 	* kubernetes: done
-* registry/servicediscovery
+* registry/servicediscovery haohongfan
 	* consul: 没修改成适应makefile的版本
 	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0
 	* etcd: 同样版本问题
 	* nacos: done
 	* zk: done
-* multi-registry: done
+* multi-registry(haohongfan): done
 * service discovery: zouyx
     * zk - done (integration)
     * nacos
-* multi_registry: haohongfan
 * metric: zouyx - done (integration)
 * router: zouyx - 模块代码没问题，但依然存在启动需要停 5s 等router 代码准备好的问题。
 * shop: zhangxun - done (integration)
@@ -49,3 +48,20 @@ Finish date: 2020-12-6
 
 共性问题: 
 mac上sentinel-golang提示: Failed to retrieve current CPU usage: not implemented yet
+
+
+dubbo-go-samples `go mod tidy` 提示下面问题:
+
+```
+$ go mod tidy
+go: downloading github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473
+go: finding module for package github.com/envoyproxy/go-control-plane/pkg/util
+go: downloading github.com/envoyproxy/go-control-plane v0.9.8
+github.com/apache/dubbo-go-samples/registry/servicediscovery/consul/go-client/app imports
+	github.com/apache/dubbo-go/metadata/report/consul tested by
+	github.com/apache/dubbo-go/metadata/report/consul.test imports
+	github.com/apache/dubbo-go/remoting/consul imports
+	github.com/hashicorp/consul/agent imports
+	github.com/hashicorp/consul/agent/xds imports
+	github.com/envoyproxy/go-control-plane/pkg/util: module github.com/envoyproxy/go-control-plane@latest found (v0.9.8), but does not contain package github.com/envoyproxy/go-control-plane/pkg/util
+```
