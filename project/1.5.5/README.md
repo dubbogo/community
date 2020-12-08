@@ -32,9 +32,9 @@ Finish date: 2020-12-6
 	* nacos: done
 	* kubernetes: done
 * registry/servicediscovery haohongfan
-	* consul: 没修改成适应makefile的版本 - zhangxun
-	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0  - tiecheng
-	* etcd: 同样版本问题 - lizhixin
+	* consul: 没修改成适应makefile的版本
+	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0
+	* etcd: 同样版本问题
 	* nacos: done
 	* zk: done
 * multi-registry: haohongfan - done
@@ -48,12 +48,28 @@ Finish date: 2020-12-6
 
 # 非共性问题
 ## etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容
-lizhixin
+解决人：lizhixin
 例子：registry/etcd 与 registry/servicediscovery/etcd
 
 ## 没修改成适应makefile的版本
+解决人：zhangxun
+例子：registry/servicediscovery/consul
 
+## 不能找到 provider
+Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0 
+解决人：tiecheng
+例子：registry/servicediscovery/file
 
+## 存在启动需要停 5s 等router 代码准备好才能使用
+期望:需要启动完成马上能启动
+https://github.com/apache/dubbo-go/pull/758
+看看结合这个是否能解决
+解决人：zouyx
+例子：router
+
+## 远程 meta data 获取数据空指针
+解决人：jiangchao
+例子：registry/servicediscovery/zookeeper ，其中需要改成远程配置中心
 
 # 共性问题: 
 ## mac上sentinel-golang
