@@ -19,7 +19,7 @@ Finish date: 2020-12-6
 * configcenter: zouyx - done (integration)
 * direct: zouyx - done (integration)
 * filter: watermelo - done (integration)
-* general: watermelo
+* general: watermelo - done
     * dubbo - done (integration)
     * jsonrpc - done (integration)
     * grpc - done (integration)
@@ -32,24 +32,36 @@ Finish date: 2020-12-6
 	* nacos: done
 	* kubernetes: done
 * registry/servicediscovery haohongfan
-	* consul: 没修改成适应makefile的版本
-	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0
-	* etcd: 同样版本问题
+	* consul: 没修改成适应makefile的版本 - zhangxun
+	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0  - tiecheng
+	* etcd: 同样版本问题 - lizhixin
 	* nacos: done
 	* zk: done
-* multi-registry(haohongfan): done
+* multi-registry: haohongfan - done
 * service discovery: zouyx
     * zk - done (integration)
-    * nacos
+    * nacos - done
 * metric: zouyx - done (integration)
 * router: zouyx - 模块代码没问题，但依然存在启动需要停 5s 等router 代码准备好的问题。
 * shop: zhangxun - done (integration)
 * tracing : zouyx - done
 
-共性问题: 
-mac上sentinel-golang提示: Failed to retrieve current CPU usage: not implemented yet
+# 非共性问题
+## etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容
+lizhixin
+例子：registry/etcd 与 registry/servicediscovery/etcd
+
+## 没修改成适应makefile的版本
 
 
+
+# 共性问题: 
+## mac上sentinel-golang
+解决人:已通知 sentinel-go 进行排查
+提示: Failed to retrieve current CPU usage: not implemented yet
+
+## 循环引用
+解决人：watermelo
 dubbo-go-samples `go mod tidy` 提示下面问题:
 
 ```
