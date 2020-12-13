@@ -53,7 +53,7 @@ Finish date: 2020-12-6
 解决结果：
 https://github.com/apache/dubbo-go/pull/914
 
-## etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容
+## etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容 -- **done**
 解决人：lizhixin
 例子：registry/etcd 与 registry/servicediscovery/etcd
 解决结果：
