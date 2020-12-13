@@ -28,13 +28,13 @@ Finish date: 2020-12-6
 * helloworld: haohongfan - done (integration)
 * seata: tiecheng - done (integration)
 * registry haohongfan
-	* etcd: grpc v1.27.0 与 etcd@v3.3.25 不兼容
+	* etcd: done --- ~~grpc v1.27.0 与 etcd@v3.3.25 不兼容~~
 	* nacos: done
 	* kubernetes: done
 * registry/servicediscovery haohongfan
-	* consul: 没修改成适应makefile的版本
+	* consul: done ~~没修改成适应makefile的版本~~
 	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0
-	* etcd: 同样版本问题
+	* etcd: done ~~同样版本问题~~
 	* nacos: done
 	* zk: done
 * multi-registry: haohongfan - done
@@ -59,7 +59,7 @@ https://github.com/apache/dubbo-go/pull/914
 解决结果：
 https://github.com/apache/dubbo-go-samples/pull/21
 
-## 没修改成适应makefile的版本
+## 没修改成适应makefile的版本 -- **done**
 解决人：zhangxun
 例子：registry/servicediscovery/consul
 解决结果：
@@ -88,14 +88,17 @@ https://github.com/apache/dubbo-go/pull/927
 例子：registry/servicediscovery/zookeeper ，其中需要改成远程配置中心
 解决结果：
 
-# 共性问题: 
+# 共性问题: **不是问题**
 ## mac上sentinel-golang
 解决人:已通知 sentinel-go 进行排查
 提示: Failed to retrieve current CPU usage: not implemented yet
 解决结果：
 
 
-## 循环引用
+## 循环引用: 不是循环依赖问题.  envoyproxy/go-control-plane 那个包需要升一个小版本，但是升的小版本那个单元测试需要用 1.14 才能跑
+
+需要升级github action go版本
+
 解决人：watermelo
 dubbo-go-samples `go mod tidy` 提示下面问题:
 
