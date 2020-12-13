@@ -33,7 +33,7 @@ Finish date: 2020-12-6
 	* kubernetes: done
 * registry/servicediscovery haohongfan
 	* consul: done ~~没修改成适应makefile的版本~~
-	* file:  Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0
+	* file:  done ~~Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0~~
 	* etcd: done ~~同样版本问题~~
 	* nacos: done
 	* zk: done
@@ -65,7 +65,7 @@ https://github.com/apache/dubbo-go-samples/pull/21
 解决结果：
 https://github.com/apache/dubbo-go-samples/pull/22
 
-## 不能找到 provider
+## 不能找到 provider -- **done**
 Failed to check the status of the service org.apache.dubbo.UserProvider. No provider available for the service to the consumer use dubbo version 1.3.0 
 解决人：tiecheng
 例子：registry/servicediscovery/file
