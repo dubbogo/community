@@ -9,7 +9,8 @@ Finish date: 2020-10-31
 
 ## Test branch
 
-[dubbo-go](https://github.com/apache/dubbo-go/): 1.5.4
+[dubbo-go](https://github.com/apache/dubbo-go/): 1.5
+
 [dubbo-go-sample](https://github.com/apache/dubbo-go-samples/): master
 
 ## Test module
