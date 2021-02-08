@@ -43,9 +43,9 @@ Finish date: 2021-02-10
 
 - ~~metric~~
 
-- multi-registry tiecheng
+- multi-registry tiecheng - done
 
-- multi-zone tiecheng
+- multi-zone tiecheng - done
 
 - router
 
@@ -64,9 +64,9 @@ Finish date: 2021-02-10
         - file
         - nacos
 
-- seata tiecheng
+- seata tiecheng - done
 
-- shop tiecheng
+- shop tiecheng - done
 
 - tracing tiecheng
 
