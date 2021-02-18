@@ -54,15 +54,15 @@ Finish date: 2021-02-10
 
 - registry zhangxun
 
-    - etcd
+    - etcd - done
     - kubernetes
-    - nacos
+    - nacos - done
     - servicediscovery zhangxun
-        - ~~zookeeper~~
-        - consul
-        - etcd
-        - file
-        - nacos
+        - ~~zookeeper~~- 启动异常
+        - consul - done
+        - etcd - provider 和 consumer 配置了不同的application.name 后 consumer 找不到服务提供者
+        - file - 启动异常
+        - nacos - done
 
 - seata tiecheng - done
 
