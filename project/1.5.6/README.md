@@ -68,7 +68,7 @@ Finish date: 2021-02-10
 
 - shop tiecheng - done
 
-- tracing tiecheng
+- tracing tiecheng - done
 
 # 非共性问题
 
