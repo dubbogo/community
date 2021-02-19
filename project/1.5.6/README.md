@@ -58,10 +58,10 @@ Finish date: 2021-02-10
     - kubernetes
     - nacos - done
     - servicediscovery zhangxun
-        - ~~zookeeper~~- 启动异常
+        - ~~zookeeper~~ - 启动异常, panic: runtime error: invalid memory address or nil pointer dereference  github.com/apache/dubbo-go/metadata/mapping/dynamic.(*DynamicConfigurationServiceNameMapping).Get(0xc000796050, 0xc0001cd940, 0x1d, 0x0, 0x0, 0x0, 0x0, 0xc00023a650, 0x5, 0x0, ...)
         - consul - done
         - etcd - provider 和 consumer 配置了不同的application.name 后 consumer 找不到服务提供者
-        - file - 启动异常
+        - file - 启动异常, ?[31mERROR?[0m  servicediscovery/service_discovery_registry.go:442      get service instance selector cathe error:Could not find service instance selector withname:random
         - nacos - done
 
 - seata tiecheng - done
