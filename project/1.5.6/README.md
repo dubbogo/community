@@ -11,7 +11,7 @@ Finish date: 2021-02-10
 
 [dubbo-go](https://github.com/apache/dubbo-go/): 1.5
 
-[dubbo-go-sample](https://github.com/apache/dubbo-go-samples/): 1.5.6
+[dubbo-go-sample](https://github.com/apache/dubbo-go-samples/): master(替换1.5分支的最新commit)
 
 ## Test module
 
