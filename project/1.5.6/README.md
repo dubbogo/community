@@ -50,7 +50,7 @@ Finish date: 2021-02-10
 - router
 
     - ~~condition~~
-    - tag tiecheng
+    - tag tiecheng 这个应该是有问题的，目前找志信，白泽都看过。和部长确认没有真实使用，所以直接到 3.0 去包含或者后面实际场景完善了再打补丁
 
 - registry zhangxun
 
