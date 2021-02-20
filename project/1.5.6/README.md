@@ -16,11 +16,11 @@ Finish date: 2021-02-10
 ## Test module
 
 - ~~async~~
-- attachment 白泽
+- attachment 白泽 done
 - configcenter
     - ~~apollo~~
     - ~~nacos~~
-    - zookeeper 白泽
+    - zookeeper 白泽 done
 
 - ~~direct~~
 
@@ -28,14 +28,14 @@ Finish date: 2021-02-10
 
     - ~~custom_filter~~
     - ~~tpslimit~~
-    - sentinel 白泽
+    - sentinel 白泽 done
 
 - general
 
     - ~~dubbo~~
     - ~~grpc~~
-    - jsonrpc 白泽
-    - rest 白泽
+    - jsonrpc 白泽 done
+    - rest 白泽 done
 
 - ~~generic~~
 
