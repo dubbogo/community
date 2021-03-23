@@ -40,7 +40,7 @@ Finish date: 2021-03-21
     - rest 
 
 - ~~generic~~ 
-- group tiecheng
+- group tiecheng done
 - ~~hello world~~
 
 - ~~metric~~
