@@ -45,7 +45,7 @@ Finish date: 2021-03-21
 
 - ~~metric~~
 
-- multi-registry zhangxun
+- multi-registry zhangxun done
 
 - multi-zone zhangxun done
 
