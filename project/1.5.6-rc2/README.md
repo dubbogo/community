@@ -47,7 +47,7 @@ Finish date: 2021-03-21
 
 - multi-registry zhangxun
 
-- multi-zone zhangxun
+- multi-zone zhangxun done
 
 - router
 
