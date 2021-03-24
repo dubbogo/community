@@ -56,21 +56,21 @@ Finish date: 2021-03-21
 
 - registry fengzhenyu
 
-    - etcd
-    - kubernetes
-    - nacos
+    - etcd done
+    - kubernetes done
+    - nacos done (不兼容nacos2.0)
     - servicediscovery
         - ~~zookeeper~~
-        - consul
-        - etcd
-        - file
-        - nacos
+        - consul done
+        - etcd done
+        - file done
+        - nacos done(不兼容nacos2.0)
 
 - seata zhangxun done
 
 - shop zhangxun done
 
-- tracing fengzhenyu
+- tracing fengzhenyu done
 
 # 非共性问题
     jsonrpc 启动warn can not connect to a server, 几次重试后连接上去了, 然后又会warn  has already been listened. 不影响调用 但是很奇怪 这块逻辑是不是有毛病?
