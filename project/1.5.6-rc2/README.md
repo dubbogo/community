@@ -16,9 +16,9 @@ Finish date: 2021-03-21
 ## Test module
 
 - ~~async~~
-- attachment 白泽
-- chain[新增] 白泽
-- config-api[新增] 白泽
+- attachment 白泽 done
+- chain[新增] 白泽 done
+- config-api[新增] 白泽 done
 - configcenter
     - ~~apollo~~
     - ~~nacos~~
