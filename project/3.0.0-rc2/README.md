@@ -19,7 +19,7 @@ Samples with ~~delete line~~ means it is covered by integrate test.
 
 - ~~async~~
 - ~~attachment~~
-- chain 孙嘉骏
+- chain 孙嘉骏 done
 - ~~config-api~~
 - ~~configcenter~~
     - ~~apollo~~
@@ -27,7 +27,7 @@ Samples with ~~delete line~~ means it is covered by integrate test.
     - ~~zookeeper~~
 - ~~context~~
 - ~~direct~~
-- docker 赵梓皓
+- docker 赵梓皓 done
 - ~~filter~~
     - ~~custom_filter~~
     - ~~tpslimit~~
@@ -37,8 +37,8 @@ Samples with ~~delete line~~ means it is covered by integrate test.
     - ~~dubbo~~
     - ~~dubbo3~~
     - ~~grpc~~
-    - jsonrpc 赵梓皓
-    - rest 赵梓皓
+    - jsonrpc 赵梓皓 done
+    - rest 赵梓皓 done
 
 - ~~group~~
 
@@ -48,7 +48,7 @@ Samples with ~~delete line~~ means it is covered by integrate test.
 
 - ~~multi-registry~~
 
-- multi-zone 孙嘉骏
+- multi-zone 孙嘉骏 done
 
 - router
     - uniform-router 陈家鹏
@@ -63,6 +63,6 @@ Samples with ~~delete line~~ means it is covered by integrate test.
         - ~~zookeeper~~
         - ~~nacos~~
 
-- shop 陈家鹏
-- seata 云兴
-- tracing 董剑辉
+- shop 陈家鹏 done
+- seata 云兴、枫博 done
+- tracing 董剑辉 done
