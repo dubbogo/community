@@ -5,7 +5,7 @@
 
 # Testing Plan
 
-Finish date: 2021-07-03
+Finish date: 2021-07-05
 
 ## Test branch
 
@@ -15,59 +15,54 @@ Finish date: 2021-07-03
 
 ## Test module
 
+Samples with ~~delete line~~ means it is covered by integrate test.
+
 - ~~async~~
-- attachment 
-- chain[新增] 
-- config-api[新增]
-- configcenter
+- ~~attachment~~
+- chain 孙嘉骏
+- ~~config-api~~
+- ~~configcenter~~
     - ~~apollo~~
     - ~~nacos~~
-    - zookeeper
-- context
-- ~~direct~~ 
-- docker
-- filter 
-
+    - ~~zookeeper~~
+- ~~context~~
+- ~~direct~~
+- docker 赵梓皓
+- ~~filter~~
     - ~~custom_filter~~
     - ~~tpslimit~~
-    - sentinel 
+    - ~~sentinel~~
 
 - general
-
     - ~~dubbo~~
+    - ~~dubbo3~~
     - ~~grpc~~
-    - jsonrpc
-    - rest 
+    - jsonrpc 赵梓皓
+    - rest 赵梓皓
 
-- ~~generic~~ 
-- group 
+- ~~group~~
+
 - ~~hello world~~
 
 - ~~metric~~
 
-- multi-registry
+- ~~multi-registry~~
 
-- multi-zone
+- multi-zone 孙嘉骏
 
 - router
+    - uniform-router 陈家鹏
+        - file
+        - k8s
 
-    - ~~condition~~
-    - tag 这个应该是有问题的，目前找志信，白泽都看过。和部长确认没有真实使用，所以直接到 3.0 去包含或者后面实际场景完善了再打补丁
-
-- registry fengzhenyu
-
-    - etcd
-    - kubernetes
-    - nacos 
-    - servicediscovery
+- ~~registry~~
+    - ~~zookeeper~~
+    - ~~etcd~~
+    - ~~nacos~~
+    - ~~servicediscovery~~
         - ~~zookeeper~~
-        - consul
-        - etcd
-        - file 
-        - nacos 
+        - ~~nacos~~
 
-- seata
-
-- shop
-
-- tracing
+- shop 陈家鹏
+- seata 云兴、枫博
+- tracing 董剑辉
