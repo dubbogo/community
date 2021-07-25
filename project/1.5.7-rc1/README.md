@@ -5,7 +5,7 @@
 
 # Testing Plan
 
-Finish date: 2021-07-28
+Finish date: 2021-07-05
 
 ## Test branch
 
@@ -18,8 +18,8 @@ Finish date: 2021-07-28
 Samples with ~~delete line~~ means it is covered by integrate test.
 
 - ~~async~~
-- ~~attachment~~ 李志信 已加入集成测试
-- chain 赵梓皓 done
+- ~~attachment~~
+- chain 孙嘉骏 done
 - ~~config-api~~
 - ~~configcenter~~
     - ~~apollo~~
@@ -37,8 +37,8 @@ Samples with ~~delete line~~ means it is covered by integrate test.
     - ~~dubbo~~
     - ~~dubbo3~~
     - ~~grpc~~
-    - ~~jsonrpc~~ 李志信 已加入集成测试
-    - ~~rest~~ 李志信 已加入集成测试
+    - jsonrpc 赵梓皓 done
+    - rest 赵梓皓 done
 
 - ~~group~~
 
@@ -48,21 +48,21 @@ Samples with ~~delete line~~ means it is covered by integrate test.
 
 - ~~multi-registry~~
 
-- ~~multi-zone~~ 董剑辉 done 李志信 已加入集成测试
+- multi-zone 孙嘉骏 done
 
-- router
-    - condition 李志信 done
-    - tag 李志信 done
+- router 陈家鹏 done
+    - tag 
+    - condition 
+
 
 - ~~registry~~
-    - ~~zookeeper~~ 李志信 已加入集成测试
+    - ~~zookeeper~~
     - ~~etcd~~
     - ~~nacos~~
     - ~~servicediscovery~~
         - ~~zookeeper~~
         - ~~nacos~~
-        - ~~etcd~~ 李志信 已加入集成测试
 
-- shop 云兴
-- seata 云兴
-- tracing 叶晓波
+- shop 陈家鹏 done
+- seata 云兴、枫博 done
+- tracing 董剑辉 done
