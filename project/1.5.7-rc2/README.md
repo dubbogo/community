@@ -63,6 +63,6 @@ Samples with ~~delete line~~ means it is covered by integrate test.
         - ~~nacos~~
         - ~~etcd~~ 李志信 已加入集成测试
 
-- shop 云兴
-- seata 云兴
-- tracing 叶晓波
+- shop 云兴/枫博 done
+- seata 云兴/枫博 done
+- tracing 叶晓波 done
